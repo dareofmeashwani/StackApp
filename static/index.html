@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stack Test</title>
+    <script src="static/utility.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+</head>
+<body onload="onPageLoad()">
+    <br/>
+    Stack Size&nbsp;:&nbsp;<input type="text" id="capacityInput"><button id="capacityButton" onclick="capacity()">Send</button>
+    <br/><br/>
+    <div id="stackOps">
+        Stack&nbsp;:&nbsp;<label id="stackValuesLabel"></label>
+        <br/><br/>
+        <button id="popButton" onclick="pop()">Pop</button>
+        <button id="resetButton" onclick="reset()">Reset</button>
+        <button id="displayButton" onclick="print()">Display</button>
+        <br/><br/>
+        Push Value&nbsp;:&nbsp;<input type="text" id="pushInput"><button id="pushButton" onclick="push()">Send</button>
+    </div>
+</body>
+</html>
