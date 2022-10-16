@@ -7,5 +7,5 @@ python main.py
 python api_test.py
 
 ## Run Integration Test
-# Note: download chrome driver before running the integration tests.
+### Note: download chrome driver before running the integration tests.
 python integration.py
